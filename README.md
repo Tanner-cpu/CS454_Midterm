@@ -5,6 +5,7 @@
 - k3d
 
 ## How to Build and Run
+docker build -t cs554-midterm  .
 
 ## Required Operational Demonstration 
 
