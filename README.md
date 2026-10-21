@@ -17,7 +17,9 @@ Successfully created a Virtual Machine and started the service while inside<br>
 
 <img width="726" height="38" alt="Screenshot 2026-10-20 160236" src="https://github.com/user-attachments/assets/adc9ce36-8b7a-404e-8910-855c331b1ae7" />
 <img width="412" height="35" alt="Screenshot 2026-10-20 160250" src="https://github.com/user-attachments/assets/a1834ba2-c481-4fed-8b8a-88f27cec2934" />
-Successfully requested both endpoints inside the virtual machine<br>
+Successfully requested both endpoints inside the virtual machine
+
+
 
 
 <img width="779" height="109" alt="Screenshot 2026-10-20 154927" src="https://github.com/user-attachments/assets/85b7d93d-658f-47b0-98eb-32ca1944670d" />
