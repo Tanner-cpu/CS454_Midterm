@@ -27,11 +27,9 @@ Successfully requested both endpoints from outside of the virtual machine (host 
 <br>
 
 <img width="672" height="87" alt="Screenshot 2026-10-20 154940" src="https://github.com/user-attachments/assets/725dfdb2-1458-4bff-bee8-c966f9c1efa8" />
-
 Service status and container logs<br> 
 <br>
 <img width="790" height="55" alt="Screenshot 2026-10-20 160615" src="https://github.com/user-attachments/assets/48cc92f9-f80b-4d35-92ac-2a6d9cd26a34" />
-
 After restarting the serivce, the request count restarts.<br>
 <br>
 
