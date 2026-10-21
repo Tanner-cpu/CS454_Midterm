@@ -1,7 +1,8 @@
-<img width="412" height="35" alt="Screenshot 2026-10-20 160250" src="https://github.com/user-attachments/assets/f2277c09-97d7-495b-8440-886fda8bb6f1" />
 ## Prerequisites
 - Docker / Docker Compose
 - Curl
+- kubectl
+- k3d
 
 ## How to Build and Run
 
