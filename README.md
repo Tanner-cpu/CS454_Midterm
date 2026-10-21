@@ -4,8 +4,14 @@
 - kubectl
 - k3d
 
-## How to Build and Run
+## How to Build Image
 docker build -t cs554-midterm  .
+
+## How to Build CLuster 
+k3d cluster create cs454 \
+  --servers 1 \
+  --agents 2 \
+  -p "8080:80@loadbalancer"
 
 ## Required Operational Demonstration 
 
