@@ -2,17 +2,6 @@ networks:
   app-net:
     driver: bridge
     internal: false
-
-# services:
-#   api:
-#     build: .
-#     ports:
-#       - "3000:3000"
-#     environment:
-#       SERVICE_NAME: my-application
-#     restart: on-failure:5
-#     networks: 
-#       - app-net
 services:
   web:
     image: nginx:alpine

@@ -1,10 +1,13 @@
 'use strict';
 const http = require('node:http');
 const os = require('node:os');
+
 function createServer(options = {}) {
   const serviceName = options.serviceName ?? process.env.SERVICE_NAME ?? 'cs454-midterm';
   const message = options.message ?? process.env.MESSAGE ?? 'Hello from the mini-project!';
   let requestCount = 0;
+
+
   return http.createServer((req, res) => {
     const path = new URL(req.url, 'http://localhost').pathname;
     let status = 200;

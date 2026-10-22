@@ -40,7 +40,7 @@ write_files:
     permissions: '0644'
     content: |
       [Unit]
-      Description=CS454 demo service
+      Description=CS454 service
       After=network.target
 
       [Service]
