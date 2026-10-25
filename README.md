@@ -17,3 +17,8 @@ k3d cluster create cs454 \
 
 ## Import Local Image 
 k3d image import cs454-midterm -c cs454
+
+## Deploy Application 
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+kubectl apply -f ingress.yaml
