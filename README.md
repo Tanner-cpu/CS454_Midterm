@@ -1,3 +1,8 @@
+## DEMO VIDEOS 
+- https://www.dropbox.com/scl/fi/pfs5zavmmnk64xm3yykhb/VMDemo.mp4?rlkey=qhd2h3rs79f59g3p9icj4esdw&st=rq24t1z8&dl=0
+- https://www.dropbox.com/scl/fi/317nmug340br8hc42lhk0/KubernetesDemo.mp4?rlkey=sst9tk2ei25x9v0vd3m4l14qo&st=k4q25202&dl=0
+
+
 ## Prerequisites
 - Docker / Docker Compose
 - Curl
