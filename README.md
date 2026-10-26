@@ -21,8 +21,8 @@ multipass shell cs454-vm
 SERVICE_NAME=vm-service MESSAGE="Hello from a VM environment" node app.js
 
 ## Requests from Host 
-curl http://192.168.1.215:8080/health (status)
-curl http://192.168.1.215:8080 (simple request)
+- curl http://192.168.1.215:8080/health (status)
+- curl http://192.168.1.215:8080 (simple request)
 
 # Kubernetes Build/Start/Access Commands 
 
