@@ -3,6 +3,26 @@
 - Curl
 - kubectl
 - k3d
+- Multipass
+  
+# Virtual Machine Build/Start/Access Commands 
+
+## Create an Ubuntu VM 
+multipass launch 24.04 \
+  --name cs454-vm \
+  --cpus 2 \
+  --memory 2G \
+  --disk 8G
+
+## Enter Virtual Machine
+multipass shell cs454-vm
+
+## Start Service Inside VM
+SERVICE_NAME=vm-service MESSAGE="Hello from a VM environment" node app.js
+
+## Requests from Host 
+curl http://192.168.1.215:8080/health (status)
+curl http://192.168.1.215:8080 (simple request)
 
 # Kubernetes Build/Start/Access Commands 
 
