@@ -24,6 +24,9 @@ SERVICE_NAME=vm-service MESSAGE="Hello from a VM environment" node app.js
 - curl http://192.168.1.215:8080/health (status)
 - curl http://192.168.1.215:8080 (simple request)
 
+## Cleanup 
+multipass delete --purge cs454-vm
+
 # Kubernetes Build/Start/Access Commands 
 
 ## How to Build Image
