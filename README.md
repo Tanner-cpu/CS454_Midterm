@@ -4,6 +4,7 @@
 - kubectl
 - k3d
 - Multipass
+- Node
   
 # Virtual Machine Build/Start/Access Commands 
 
